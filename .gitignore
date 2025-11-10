@@ -1,0 +1,26 @@
+# Ignore virtual environments
+venv/
+.env/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter temporary files
+.ipynb_checkpoints/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore temp, backup, and log files
+*.tmp
+*.bak
+*.log
+
+# Ignore notebooks autosave
+*.ipynb_autosave
